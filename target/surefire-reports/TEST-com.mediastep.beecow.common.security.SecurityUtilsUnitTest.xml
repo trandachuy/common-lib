@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.mediastep.beecow.common.security.SecurityUtilsUnitTest" time="0.208" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="JOB_NAME" value="BackendDev/common-lib"/>
+    <property name="PWD" value="/var/lib/jenkins"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://ci-qa.mediastep.com/job/BackendDev/job/common-lib/34/display/redirect?page=tests"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/var/lib/jenkins"/>
+    <property name="PATH" value="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"/>
+    <property name="HUDSON_SERVER_COOKIE" value="7d0ae51a0cde5b38"/>
+    <property name="PRIVACY_IP" value="172.31.3.229"/>
+    <property name="POM_ARTIFACTID" value="beecow-common"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
+    <property name="EXECUTOR_NUMBER" value="14"/>
+    <property name="STOREFRONT_PRODUCTION_IP" value="172.31.28.169 172.31.0.54 172.31.2.222"/>
+    <property name="GUIDE_STAGING_IP" value="172.31.3.219"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="beecow-common"/>
+    <property name="XDG_RUNTIME_DIR" value="/run/user/110"/>
+    <property name="NODE_LABELS" value="Dev-master"/>
+    <property name="java.runtime.version" value="1.8.0_292-8u292-b10-0ubuntu1~16.04.1-b10"/>
+    <property name="ROOT_BUILD_CAUSE" value="MANUALTRIGGER"/>
+    <property name="PRODUCTION_TOKEN" value="Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX1VTRVIsUk9MRV9BRE1JTiIsImRpc3BsYXlOYW1lIjoiQWRtaW5pc3RyYXRvciIsInVzZXJJZCI6MywibG9jYXRpb25Db2RlIjoiVk4tU0ciLCJleHAiOjE2Njc4OTgwMDF9.ucZuM4J_6fOq6moHnRyFSFnw-hl4h8r_4cb3HwYbgHYsBrhLsHxELCb0nVPdF2X8NAPbO-bsWvz43pd6USP1Xg"/>
+    <property name="user.name" value="jenkins"/>
+    <property name="SSH_CONNECTION" value="10.10.0.13 34658 10.10.0.18 22"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="SSH_CLIENT" value="10.10.0.13 34658 22"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="common-lib"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://ci-qa.mediastep.com/job/BackendDev/job/common-lib/34/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#34"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
+    <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="f7bde6dcddb0bcb54f2685762194d08e286043e3"/>
+    <property name="java.version" value="1.8.0_292"/>
+    <property name="GOSELL_STAGING_IP" value="172.31.3.219"/>
+    <property name="user.timezone" value="Asia/Phnom_Penh"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="Dev-master"/>
+    <property name="TEAM_URL_DEVOPS" value="https://mediastep.webhook.office.com/webhookb2/de514a50-af2f-4300-b9b5-3232b8d77128@8b318df0-a908-4fa0-8c6c-8a521ce935e1/IncomingWebhook/cd5e5b58070c48f9ae5d31013cbfee2f/47c1ea2a-87ec-4315-aa48-9c43176c6245"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="BUILD_ID" value="34"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="RANCHER_SECRET_KEY_STG" value="GcTuqJamxk7Vb32L8NvjSiSnM8Mt4ZjEF9gncSnB"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="AWS_PROFILE" value="default"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="JDK1.8" value="/usr"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="4.4.0-210-generic"/>
+    <property name="RUN_DISPLAY_URL" value="http://ci-qa.mediastep.com/job/BackendDev/job/common-lib/34/display/redirect"/>
+    <property name="POM_VERSION" value="3.6.0-SNAPSHOT"/>
+    <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://ci-qa.mediastep.com/job/BackendDev/job/common-lib/34/display/redirect?page=artifacts"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="25.292-b10"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="ae73d28002980b9a00df8c0c78f62428db3a90b8"/>
+    <property name="JOB_DISPLAY_URL" value="http://ci-qa.mediastep.com/job/BackendDev/job/common-lib/display/redirect"/>
+    <property name="STOREFRONT_STAGING_IP" value="172.31.27.134"/>
+    <property name="RANCHER_ACCESS_KEY_STG" value="CC92A7ED3C1EE48FF5B1"/>
+    <property name="SHLVL" value="1"/>
+    <property name="_" value="/usr/bin/java"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="JAVA_HOME" value="/usr/lib/jvm/java-8-openjdk-amd64/"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="LOGNAME" value="jenkins"/>
+    <property name="RANCHER_SECRET_KEY_PROD" value="KR9Dhy1sWaJxG9JmDNX23Cy8h544D6aY4y5HTYKX"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="HOME" value="/var/lib/jenkins"/>
+    <property name="POM_GROUPID" value="com.mediastep.beecow"/>
+    <property name="user.home" value="/var/lib/jenkins"/>
+    <property name="BUILD_TAG" value="jenkins-BackendDev-common-lib-34"/>
+    <property name="JENKINS_SERVER_COOKIE" value="7d0ae51a0cde5b38"/>
+    <property name="HUDSON_URL" value="http://ci-qa.mediastep.com/"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="XDG_SESSION_ID" value="31487"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="ROOT_BUILD_CAUSE_MANUALTRIGGER" value="true"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="RANCHER_ACCESS_KEY_PROD" value="8FF3415ECE87D32D19DA"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="java.class.path" value="/var/lib/jenkins/maven33-agent.jar:/usr/share/maven/boot/plexus-classworlds-2.x.jar:/usr/share/maven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven33Main /usr/share/maven /var/lib/jenkins/remoting.jar /var/lib/jenkins/maven33-interceptor.jar /var/lib/jenkins/maven3-interceptor-commons.jar 44589"/>
+    <property name="TEAM_URL_JENKINS" value="https://mediastep.webhook.office.com/webhookb2/de514a50-af2f-4300-b9b5-3232b8d77128@8b318df0-a908-4fa0-8c6c-8a521ce935e1/IncomingWebhook/e8a7844ded0945b39ed7f740a73b781a/47c1ea2a-87ec-4315-aa48-9c43176c6245"/>
+    <property name="GUIDE_PRODUCTION_IP" value="172.31.8.218"/>
+    <property name="STAGING_TOKEN" value="Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX1VTRVIsUk9MRV9BRE1JTiIsImRpc3BsYXlOYW1lIjoiQWRtaW5pc3RyYXRvciIsInVzZXJJZCI6MywibG9jYXRpb25Db2RlIjoiVk4tU0ciLCJleHAiOjE2NzA2NjkzNjZ9.-GPIp35quXRcEOO9Sys1kPJw1DSZzE1SLIUNGbFcEpjwm1aODk--X5_9HWGFRyKpamBkuc1ssJzQ3mRrVLTE8g"/>
+    <property name="APPCENTER_TOKEN" value="8c9b09214904299b96be7c46e737bd066771e474"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PATH+JDK" value="/usr/lib/jvm/java-8-openjdk-amd64//bin"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="GOSELL_STAGING_IP_V2" value="172.31.27.134"/>
+    <property name="M2_HOME" value="/usr/share/maven"/>
+    <property name="MAIL" value="/var/mail/jenkins"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="CI" value="true"/>
+    <property name="HUDSON_HOME" value="/var/lib/jenkins"/>
+    <property name="PATH+MAVEN" value="/usr/share/maven/bin"/>
+    <property name="BUILD_URL" value="http://ci-qa.mediastep.com/job/BackendDev/job/common-lib/34/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="OLDPWD" value="/var/lib/jenkins"/>
+    <property name="CA_TOKEN" value="Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImF1dGgiOiJST0xFX1VTRVIsUk9MRV9BRE1JTiIsImRpc3BsYXlOYW1lIjoiYWJjIGFzZGZhc2RmIiwidXNlcklkIjozLCJsb2NhdGlvbkNvZGUiOiJWTi1TRyIsImV4cCI6MTY1NTQ0MDM0NX0.N9m83Dbpeg4odTtfodE73M1ErOAQIkeQ4imO-u8DqC0l3L6gO954WxE7URTRxEw5MHMmPlbqLxb_wOkSsm6pQg"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="user.dir" value="/var/lib/jenkins/workspace/BackendDev/common-lib"/>
+    <property name="JOB_URL" value="http://ci-qa.mediastep.com/job/BackendDev/job/common-lib/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="MAVEN_HOME" value="/usr/share/maven"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="34"/>
+    <property name="JENKINS_URL" value="http://ci-qa.mediastep.com/"/>
+    <property name="GIT_BRANCH" value="origin/develop"/>
+    <property name="BUILD_CAUSE_MANUALTRIGGER" value="true"/>
+    <property name="GIT_COMMIT" value="35588cf839f87a95221495bb7e389f3ce3ac33c6"/>
+    <property name="MOBILE_LATEST_VERSION" value="gosell-v3.7"/>
+    <property name="ANDROID_LATEST_TAG" value="tags/gosell-v2.5.0"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="LANG" value="en_US.UTF-8"/>
+    <property name="maven3.interceptor" value="/var/lib/jenkins/maven33-interceptor.jar"/>
+    <property name="WORKSPACE_TMP" value="/var/lib/jenkins/workspace/BackendDev/common-lib@tmp"/>
+    <property name="WORKSPACE" value="/var/lib/jenkins/workspace/BackendDev/common-lib"/>
+    <property name="maven3.interceptor.common" value="/var/lib/jenkins/maven3-interceptor-commons.jar"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="BUILD_CAUSE" value="MANUALTRIGGER"/>
+    <property name="NodeJS-7.4.0" value="/usr"/>
+    <property name="LANGUAGE" value="en_US:en"/>
+    <property name="USER" value="jenkins"/>
+    <property name="GIT_URL" value="http://git.mediastep.com/loi.tran/beecow-common.git"/>
+  </properties>
+  <testcase name="testIsAuthenticated" classname="com.mediastep.beecow.common.security.SecurityUtilsUnitTest" time="0.203"/>
+  <testcase name="testgetCurrentUserLogin" classname="com.mediastep.beecow.common.security.SecurityUtilsUnitTest" time="0.004"/>
+  <testcase name="testAnonymousIsNotAuthenticated" classname="com.mediastep.beecow.common.security.SecurityUtilsUnitTest" time="0.001"/>
+</testsuite>

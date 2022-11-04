@@ -1,0 +1,12 @@
+/var/lib/jenkins/workspace/BackendDev/common-lib/src/test/java/com/mediastep/beecow/common/domain/util/DataTypeMapperIntegerTests.java
+/var/lib/jenkins/workspace/BackendDev/common-lib/src/test/java/com/mediastep/beecow/common/domain/util/AbstractDataTypeMapperNumberTests.java
+/var/lib/jenkins/workspace/BackendDev/common-lib/src/test/java/com/mediastep/beecow/common/util/CommonTestUtil.java
+/var/lib/jenkins/workspace/BackendDev/common-lib/src/test/java/com/mediastep/beecow/common/domain/util/DataTypeMapperLongTests.java
+/var/lib/jenkins/workspace/BackendDev/common-lib/src/test/java/com/mediastep/beecow/common/security/SecurityUtilsUnitTest.java
+/var/lib/jenkins/workspace/BackendDev/common-lib/src/test/java/com/mediastep/beecow/common/domain/util/DataTypeMapperStringTests.java
+/var/lib/jenkins/workspace/BackendDev/common-lib/src/test/java/com/mediastep/beecow/common/domain/util/ImageDtoUtlTests.java
+/var/lib/jenkins/workspace/BackendDev/common-lib/src/test/java/com/mediastep/beecow/common/domain/util/DataTypeMapperFloatTests.java
+/var/lib/jenkins/workspace/BackendDev/common-lib/src/test/java/com/mediastep/beecow/common/domain/util/DataTypeMapperBigIntegerTests.java
+/var/lib/jenkins/workspace/BackendDev/common-lib/src/test/java/com/mediastep/beecow/common/domain/util/AbstractDataTypeMapperTests.java
+/var/lib/jenkins/workspace/BackendDev/common-lib/src/test/java/com/mediastep/beecow/common/domain/util/DataTypeMapperBigDecimalTests.java
+/var/lib/jenkins/workspace/BackendDev/common-lib/src/test/java/com/mediastep/beecow/common/domain/util/DataTypeMapperDoubleTests.java
